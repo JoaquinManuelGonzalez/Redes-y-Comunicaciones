@@ -1,0 +1,7 @@
+server berlin.cities.org
+zone cites.org
+update delete paraguil-br0.cities.org.               A    172.20.1.1
+update add    paraguil-br0.cities.org.  86400        A    172.20.1.7
+show
+send
+
