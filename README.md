@@ -1,6 +1,6 @@
 # Redes y Comunicaciones - 2024
----
-## Contenido
+
+**Contenido:**
 
 En este repositorio vas a poder encontrar bibliografía, clases teóricas, enunciados de la práctica y sus resoluciones, parciales prácticos y parciales teóricos de la materia Redes y Comunicaciones.
 
