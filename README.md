@@ -8,3 +8,6 @@ En este repositorio vas a poder encontrar bibliografía, clases teóricas, enunc
 
 - [Práctica 1](https://github.com/JoaquinManuelGonzalez/Redes-y-Comunicaciones/blob/main/practicas_resueltas/Pr%C3%A1ctica%201%20-%20Redes%20y%20Comunicaciones.pdf)
 - [Práctica 2](https://github.com/JoaquinManuelGonzalez/Redes-y-Comunicaciones/blob/main/practicas_resueltas/Pr%C3%A1ctica%202%20-%20Redes%20y%20Comunicaciones.pdf)
+- [Práctica 3](https://github.com/JoaquinManuelGonzalez/Redes-y-Comunicaciones/blob/main/practicas_resueltas/Pr%C3%A1ctica%203%20-%20Redes%20y%20Comunicaciones.pdf)
+- [Práctica 4](https://github.com/JoaquinManuelGonzalez/Redes-y-Comunicaciones/blob/main/practicas_resueltas/Pr%C3%A1ctica%204%20-%20Redes%20y%20Comunicaciones.pdf)
+- [Práctica 5](https://github.com/JoaquinManuelGonzalez/Redes-y-Comunicaciones/blob/main/practicas_resueltas/Pr%C3%A1ctica%205%20-%20Redes%20y%20Comunicaciones.pdf)
