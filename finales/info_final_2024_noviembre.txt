@@ -1,0 +1,22 @@
+Según un random se tomó esto:
+
+Capa de aplicación:
+1) Cuál es la diferencia entre un servidor DNS autoritativo y uno local?
+2) Qué es el registro SOA?
+3) Qué registros DNS consultará el MTA para enviar un correo a otro MTA?
+
+Capa de transporte:
+1) Explicar el control de flujo TCP, teniendo en cuenta:
+- Quién lo activa
+- Qué campo se referencia
+- Funcionamiento
+
+Capa de red:
+1) Ejercicio de VLSM (con 4 redes)
+2) Asignar las redes del VLSM a la topología
+3) Hacer la tabla de ruteo del router A
+4) Qué debe tener configurado el router A (el de frontera/borde) para que las redes que tiene conectadas puedan salir a internet?
+
+Capa de enlace:
+1) Explicar el funcionamiento del protocolo que convierte direcciones lógicas en físicas en IPv4 (ARP). Cómo se llama este protocolo en IPv6?
+2) Si una red usa solamente hubs y deciden cambiarlos a todos por switches, los dominios de broadcast y de colisión aumentarán o disminuirán. Justifique.
