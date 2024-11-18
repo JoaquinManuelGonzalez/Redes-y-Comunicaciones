@@ -1,0 +1,23 @@
+Objetivo Enviar info en fase de establecimiento 
+
+RFC-793 lo permite, pero solo deja entregar a la aplic. en estado ESTABLISH
+
+3.4.  Establishing a connection
+
+  ...
+  Several examples of connection initiation follow.  Although these
+  examples do not show connection synchronization **** using data-carrying
+  segments, this is perfectly legitimate, so long as the receiving TCP
+  doesn't deliver the data to the user until it is clear the data is
+  valid (i.e., the data must be buffered at the receiver until the
+  connection reaches the ESTABLISHED state). ****  The three-way handshake
+  reduces the possibility of false connections. It is the
+  implementation of a trade-off between memory and messages to provide
+  information for this checking.
+  
+RFC-7413 lo permite, incluso entregarlo antes a la aplic. pero siempre que
+se negocie la opción fastopen.
+
+RFC-1644 Previo existió esta rfc T/TCP, pero no llegó a consolidarse y quedo en 
+historic. Problemas de seguridad: 
+Phrack Magazine   Volume 8, Issue 53 July 8, 1998, article 06 of 15 

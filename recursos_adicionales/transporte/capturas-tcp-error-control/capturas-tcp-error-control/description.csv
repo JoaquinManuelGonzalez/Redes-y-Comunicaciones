@@ -1,0 +1,18 @@
+filename;description
+000-tcp-nodelay-no-loss-byte-sent.pcap;10 bytes sin pérdida, envío por bytes, ACK por bytes, delay ACK, sleep antes de close
+001-tcp-nodelay-no-loss-byte-sent-cumulaitve-ack.pcap;10 bytes sin pérdida, envío por bytes, ACK acumulativo, delay ACK
+002-tcp-nagle-no-loss-byte-chunk-sent.pcap;10 bytes sin pérdida, envío por byte y chunk, ACK por byte y ACK acumulativo, 3way close
+003-tcp-nagle-no-loss-chunk-sent.pcap;10 bytes sin pérdida, envío por chunk, ACK por segmento, 4way close, sleep antes de close
+004-tcp-nodelay-delack-nosack-lost5per-client.pcap;10 bytes pérdida del byte, segmento 9 envío por bytes, retransmisión por tmout 9,10, 3way close (lado transmisor)
+004-tcp-nodelay-delack-nosack-lost5per-server.pcap;004 lado receptor
+005-tcp-retrans-client.pcap;10 bytes pérdida del byte, segmento 7 envío por bytes, pérdida de un ACK=7, retransmisión por tmout 7,8,9,10, 3way close (lado transmisor)
+005-tcp-retrans-server.pcap;005 lado receptor
+006-tcp-fastretrans-nosack-client.pcap;10 bytes pérdida del byte, segmento 5 envío por bytes, fast retransmit, 5..10 por dup ack
+006-tcp-fastretrans-nosack-server.pcap;006 lado receptor
+007-tcp-fastretrans-sack-client.pcap;10 bytes pérdida del byte, segmento 5 envío por bytes, fast retransmit 5 solo por dup ack, uso de SACK, nodelay, delack
+007-tcp-fastretrans-sack-server.pcap;007 lado receptor
+008-tcp-nodelay-lost5per-nosack-fast-retransmit-client.pcap;75 bytes pérdida del byte, segmento 15 envío por bytes, fast retransmit 15..24(10), luego chunk de 50
+008-tcp-nodelay-lost5per-nosack-fast-retransmit-server.pcap;008 lado receptor
+
+010-tcp-nodelay-delack-no-loss-byte-sent-chunk-send-byte-ack-cum-ack.pcap;segmento, quick ack, ack acumulados, fullsegment MSS=1460=1500-(20+20)-12 TCP options = 1448
+011-tcp-flow-control.pcap;flow control
